@@ -1,0 +1,23 @@
+start: function_definition_statement
+     | template_definition_statement
+     | if_statement
+     | for_statement
+     | while_statement
+     | do_while_statement
+     | return_statement
+     | block
+     | expression_statement
+     | include_statement
+
+function_definition_statement:
+template_definition_statement:
+if_statement:
+for_statement:
+while_statement:
+do_while_statement:
+return_statement:
+block:
+expression_statement:
+include_statement:
+
+%ignore "/s+"
