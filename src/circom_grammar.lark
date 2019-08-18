@@ -1,10 +1,6 @@
-start: all_statements
+start: statement_list+
 
-all_statements: statement_list
-
-statement_list: 
-    | statement_list statement
-    | statement
+statement_list: statement+
 
 statement: function_definition_statement
      | template_definition_statement
